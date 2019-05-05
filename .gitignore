@@ -120,3 +120,14 @@ Pods/Target Support Files/SDWebImage/SDWebImage-umbrella.h
 Pods/Target Support Files/SDWebImage/SDWebImage.modulemap
 Pods/Target Support Files/SDWebImage/SDWebImage.xcconfig
 .DS_Store
+lsStudySwift.xcodeproj/xcuserdata/lishuo.xcuserdatad/xcschemes/xcschememanagement.plist
+lsStudySwift.xcworkspace/xcuserdata/lishuo.xcuserdatad/UserInterfaceState.xcuserstate
+Pods/Pods.xcodeproj/xcuserdata/lishuo.xcuserdatad/xcschemes/AFNetworking.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lishuo.xcuserdatad/xcschemes/Pods-lsStudySwift.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lishuo.xcuserdatad/xcschemes/SDWebImage.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/lishuo.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/SDWebImage/SDWebImage/UIImage+MemoryCacheCost.h
+Pods/SDWebImage/SDWebImage/UIImage+MemoryCacheCost.m
+Pods/Target Support Files/AFNetworking/AFNetworking-Info.plist
+Pods/Target Support Files/Pods-lsStudySwift/Pods-lsStudySwift-Info.plist
+Pods/Target Support Files/SDWebImage/SDWebImage-Info.plist

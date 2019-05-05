@@ -42,6 +42,9 @@ class ViewController: UIViewController {
         self.view.addSubview(newView)
         
     }
+    override func viewWillDisappear(_ animated: Bool) {
+        
+    }
     
     
     func loadData(){
