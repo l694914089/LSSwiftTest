@@ -7,4 +7,12 @@
 //
 //  基本运算符
 
-import Foundation
+import UIKit
+
+class LSStudyOperator: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+}

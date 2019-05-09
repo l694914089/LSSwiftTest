@@ -9,40 +9,51 @@
 import UIKit
 import AFNetworking
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
 
-    let maximuNumberofLoginAttempts = 10
-    var currentLoginAttempt = 0
-    
-    var x = 0.0, y = 0.0, z = 0.0
-    
-    var welcomeMessage: String = "hello"
-    
-    var red = 1, green = 2,blue: Double = 2
-    
-    var friendlyWelcome = "Hello!"
-    
-    let languageName = "Swift"
+    let viewControllerNames = ["LSStudyBaseComponent",
+                               "LSStudyOperator",
+                               "LSStudyStringValue",
+                               "LSStudySetType",
+                               "LSStudyControlFlow",
+                               "LSStudyFunctions",
+                               "LSStudyCloseure",
+                               "LSStudyEnumeration",
+                               "LSStudyClassesAndStructures",
+                               "LSStudyProperty"]
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        friendlyWelcome = "Bonjour!"
-        print(friendlyWelcome,languageName);
-        
+        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        welcomeMessage = "laidoa"
-        NSLog(languageName)
-        
-        let newView = UIView.init()
-        newView.backgroundColor = UIColor.init(red: 255, green: 0, blue: 0, alpha: 1)
-        self.view.addSubview(newView)
         
     }
     override func viewWillDisappear(_ animated: Bool) {
+        
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return viewControllerNames.count;
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
+        cell.textLabel?.text = viewControllerNames[indexPath.row]
+        
+        return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let className = viewControllerNames[indexPath.row]
+        let ClassName = NSClassFromString("lsStudySwift."+className) as! UIViewController.Type
+        
+        let vc = ClassName.init()
+        
+        self.navigationController?.pushViewController(vc, animated: true)
         
     }
     

@@ -7,4 +7,12 @@
 //
 //  集合类型
 
-import Foundation
+import UIKit
+
+class LSStudySetType: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+}

@@ -7,4 +7,12 @@
 //
 //  函数
 
-import Foundation
+import UIKit
+
+class LSStudyFunctions: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+}

@@ -7,4 +7,12 @@
 //
 //  枚举
 
-import Foundation
+import UIKit
+
+class LSStudyEnumeration: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+}

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7EBC65004261C02C335CFD69 /* Pods_lsStudySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0E5AFD7910A973FDA6E118 /* Pods_lsStudySwift.framework */; };
-		9C2FC5912283D08F001CB36B /* LSStudyBaseComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2FC5902283D08F001CB36B /* LSStudyBaseComponent.swift */; };
 		9C2FC5932283D0D8001CB36B /* LSStudyOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2FC5922283D0D8001CB36B /* LSStudyOperator.swift */; };
 		9C2FC5952283D124001CB36B /* LSStudyStringValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2FC5942283D124001CB36B /* LSStudyStringValue.swift */; };
 		9C2FC5972283D17D001CB36B /* LSStudySetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2FC5962283D17D001CB36B /* LSStudySetType.swift */; };
@@ -18,6 +17,7 @@
 		9C2FC59F2283D25C001CB36B /* LSStudyEnumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2FC59E2283D25C001CB36B /* LSStudyEnumeration.swift */; };
 		9C2FC5A12283D299001CB36B /* LSStudyClassesAndStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2FC5A02283D299001CB36B /* LSStudyClassesAndStructures.swift */; };
 		9C2FC5A32283D2BC001CB36B /* LSStudyProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2FC5A22283D2BC001CB36B /* LSStudyProperty.swift */; };
+		9C2FC5A52283D894001CB36B /* LSStudyBaseComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2FC5A42283D894001CB36B /* LSStudyBaseComponent.swift */; };
 		A5301A1820F340E100E09CAB /* LSMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5301A1720F340E100E09CAB /* LSMainViewController.swift */; };
 		A5493E6520EF1C510017A911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5493E6420EF1C510017A911 /* AppDelegate.swift */; };
 		A5493E6720EF1C510017A911 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5493E6620EF1C510017A911 /* ViewController.swift */; };
@@ -52,7 +52,6 @@
 		1F0E5AFD7910A973FDA6E118 /* Pods_lsStudySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lsStudySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36882657E433C3D80223C901 /* Pods-lsStudySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lsStudySwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-lsStudySwift/Pods-lsStudySwift.release.xcconfig"; sourceTree = "<group>"; };
 		4CB53071E301682FE0D091AF /* Pods-lsStudySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lsStudySwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lsStudySwift/Pods-lsStudySwift.debug.xcconfig"; sourceTree = "<group>"; };
-		9C2FC5902283D08F001CB36B /* LSStudyBaseComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSStudyBaseComponent.swift; sourceTree = "<group>"; };
 		9C2FC5922283D0D8001CB36B /* LSStudyOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSStudyOperator.swift; sourceTree = "<group>"; };
 		9C2FC5942283D124001CB36B /* LSStudyStringValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSStudyStringValue.swift; sourceTree = "<group>"; };
 		9C2FC5962283D17D001CB36B /* LSStudySetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSStudySetType.swift; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		9C2FC59E2283D25C001CB36B /* LSStudyEnumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSStudyEnumeration.swift; sourceTree = "<group>"; };
 		9C2FC5A02283D299001CB36B /* LSStudyClassesAndStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSStudyClassesAndStructures.swift; sourceTree = "<group>"; };
 		9C2FC5A22283D2BC001CB36B /* LSStudyProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSStudyProperty.swift; sourceTree = "<group>"; };
+		9C2FC5A42283D894001CB36B /* LSStudyBaseComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSStudyBaseComponent.swift; sourceTree = "<group>"; };
 		A5301A1720F340E100E09CAB /* LSMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LSMainViewController.swift; path = ViewControllers/LSMainViewController.swift; sourceTree = "<group>"; };
 		A5493E6120EF1C510017A911 /* lsStudySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lsStudySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5493E6420EF1C510017A911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		9C2FC5862283C9EC001CB36B /* 001基础部分 */ = {
 			isa = PBXGroup;
 			children = (
-				9C2FC5902283D08F001CB36B /* LSStudyBaseComponent.swift */,
+				9C2FC5A42283D894001CB36B /* LSStudyBaseComponent.swift */,
 			);
 			path = "001基础部分";
 			sourceTree = "<group>";
@@ -465,13 +465,13 @@
 				9C2FC5A32283D2BC001CB36B /* LSStudyProperty.swift in Sources */,
 				A5301A1820F340E100E09CAB /* LSMainViewController.swift in Sources */,
 				9C2FC5992283D1B3001CB36B /* LSStudyControlFlow.swift in Sources */,
-				9C2FC5912283D08F001CB36B /* LSStudyBaseComponent.swift in Sources */,
 				9C2FC5952283D124001CB36B /* LSStudyStringValue.swift in Sources */,
 				9C2FC5A12283D299001CB36B /* LSStudyClassesAndStructures.swift in Sources */,
 				9C2FC59B2283D1D9001CB36B /* LSStudyFunctions.swift in Sources */,
 				9C2FC5932283D0D8001CB36B /* LSStudyOperator.swift in Sources */,
 				A5493E6720EF1C510017A911 /* ViewController.swift in Sources */,
 				9C2FC5972283D17D001CB36B /* LSStudySetType.swift in Sources */,
+				9C2FC5A52283D894001CB36B /* LSStudyBaseComponent.swift in Sources */,
 				A5493E6D20EF1C510017A911 /* lsStudySwift.xcdatamodeld in Sources */,
 				9C2FC59F2283D25C001CB36B /* LSStudyEnumeration.swift in Sources */,
 				A5493E6520EF1C510017A911 /* AppDelegate.swift in Sources */,

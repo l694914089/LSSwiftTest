@@ -7,4 +7,12 @@
 //
 //  闭包
 
-import Foundation
+import UIKit
+
+class LSStudyCloseure: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+}

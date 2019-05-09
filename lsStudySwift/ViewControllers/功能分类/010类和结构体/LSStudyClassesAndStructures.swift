@@ -7,4 +7,12 @@
 //
 //  类和结构体
 
-import Foundation
+import UIKit
+
+class LSStudyClassesAndStructures: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+}

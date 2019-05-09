@@ -7,4 +7,12 @@
 //
 //  字符串和字符
 
-import Foundation
+import UIKit
+
+class LSStudyStringValue: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+}
